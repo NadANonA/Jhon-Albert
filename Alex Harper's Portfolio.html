@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alex Harper's Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Skills</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Hi! I'm Alex Harper</h1>
+      <p>I am a professional web designer. I work from three years. I design responsive and attractive websites. I will help you to make business purpose website.</p>
+      <a href="#" class="cta">ORDER NOW</a>
+    </section>
+
+    <section class="services">
+      <h2>What I Offer</h2>
+      <div class="service-grid">
+        <div class="service-item">
+          <img src="seo.svg" alt="SEO">
+          <h3>SEO</h3>
+        </div>
+        <div class="service-item">
+          <img src="graphics.svg" alt="Graphics">
+          <h3>Graphics</h3>
+        </div>
+        <div class="service-item">
+          <img src="web-design.svg" alt="Web Design">
+          <h3>Web Design</h3>
+        </div>
+        <div class="service-item">
+          <img src="logo-design.svg" alt="Logo Design">
+          <h3>Logo Design</h3>
+        </div>
+      </div>
+    </section>
+
+    <section class="about">
+      <h2>About</h2>
+      <div class="about-content">
+        <div class="about-item">
+          <img src="jennifer-martinez.jpg" alt="Jennifer Martinez">
+          <h3>Jennifer Martinez</h3>
+        </div>
+        <div class="about-item">
+          <img src="juan-david-rendon.jpg" alt="Juan David Rendon">
+          <h3>Juan David Rendon</h3>
+        </div>
+      </div>
+      <p>We specialize in website design, graphics, and SEO to help you create a successful online presence.</p>
+    </section>
+
+    <section class="contact">
+      <h2>Join me!</h2>
+      <form>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="project-description">Share your project/research description</label>
+          <textarea id="project-description" name="project-description" required></textarea>
+        </div>
+        <div class="form-group">
+          <label>Would you like to visit us?</label>
+          <div class="radio-group">
+            <input type="radio" id="visit-yes" name="visit" value="yes">
+            <label for="visit-yes">Yes</label>
+            <input type="radio" id="visit-no" name="visit" value="no">
+            <label for="visit-no">No</label>
+          </div>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Alex Harper. All rights reserved.</p>
+    <div class="social-links">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-linkedin-in"></i></a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
